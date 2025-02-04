@@ -18,3 +18,15 @@ BO_ 15 RemoteControl: 8
   SG_ thumb_left_y : 40|8@1+ (1,0) [0|255] ""
   SG_ thumb_right_x : 48|8@1+ (1,0) [0|255] ""
   SG_ thumb_right_y : 56|8@1+ (1,0) [0|255] ""
+
+BO_ 40 NavOdometry: 7
+  SG_ distance : 0|8@1+ (0.4,0) [0|100] "m"
+  SG_ speed : 8|8@1+ (0.016,-2) [-2|2] "m/s"
+  SG_ joint_0 : 16|9@1+ (0.705,0) [0|360] "°"
+  SG_ joint_1 : 25|9@1+ (0.705,0) [0|360] "°"
+  SG_ joint_2 : 34|9@1+ (0.705,0) [0|360] "°"
+  SG_ joint_3 : 43|9@1+ (0.705,0) [0|360] "°"
+
+BO_ 41 NavState: 1
+  SG_ arm_active : 0|1@1+ (1,0) [0|1] ""
+  SG_ gripper_closed : 1|1@1+ (1,0) [0|1] ""
