@@ -19,7 +19,7 @@ BO_ 15 RemoteControl: 8
   SG_ thumb_right_x : 48|8@1+ (1,0) [0|255] ""
   SG_ thumb_right_y : 56|8@1+ (1,0) [0|255] ""
 
-BO_ 30 RaspiState: 17
+BO_ 30 RaspiState: 18
   SG_ rpi_3v7_wl_sw_a : 0|10@1+ (0.009765625,0) [0|10] "A"
   SG_ rpi_3v3_sys_a : 10|10@1+ (0.009765625,0) [0|10] "A"
   SG_ rpi_1v8_sys_a : 20|10@1+ (0.009765625,0) [0|10] "A"
@@ -36,6 +36,7 @@ BO_ 30 RaspiState: 17
   SG_ rpi_temp : 116|8@1+ (0.3125,20) [20|100] "°C"
   SG_ rpi_cpu : 124|6@1+ (1.5625,0) [0|100] "%"
   SG_ rpi_mem : 130|6@1+ (1.5625,0) [0|100] "%"
+  SG_ rpi_rssi : 136|8@1+ (0.78125,-150) [-150|50] "dBm"
 
 BO_ 40 NavOdometry: 7
   SG_ distance : 0|8@1+ (0.4,0) [0|100] "m"
