@@ -37,6 +37,8 @@ BO_ 30 RaspiState: 18
   SG_ rpi_cpu : 124|6@1+ (1.5625,0) [0|100] "%"
   SG_ rpi_mem : 130|6@1+ (1.5625,0) [0|100] "%"
   SG_ rpi_rssi : 136|8@1+ (0.78125,-150) [-150|50] "dBm"
+  SG_ rpi_ina_voltage : 144|8@1+ (0.078125,0) [0|20] "V"
+  SG_ rpi_ina_current : 152|8@1+ (0.078125,0) [0|20] "A"
 
 BO_ 40 NavOdometry: 7
   SG_ distance : 0|8@1+ (0.4,0) [0|100] "m"
