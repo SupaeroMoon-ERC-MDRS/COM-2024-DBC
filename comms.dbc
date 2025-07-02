@@ -19,7 +19,7 @@ BO_ 15 RemoteControl: 8
   SG_ thumb_right_x : 48|8@1+ (1,0) [0|255] ""
   SG_ thumb_right_y : 56|8@1+ (1,0) [0|255] ""
 
-BO_ 30 RaspiState: 18
+BO_ 30 RaspiState: 20
   SG_ rpi_3v7_wl_sw_a : 0|10@1+ (0.009765625,0) [0|10] "A"
   SG_ rpi_3v3_sys_a : 10|10@1+ (0.009765625,0) [0|10] "A"
   SG_ rpi_1v8_sys_a : 20|10@1+ (0.009765625,0) [0|10] "A"
