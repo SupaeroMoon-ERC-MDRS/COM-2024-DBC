@@ -21,9 +21,9 @@ BO_ 15 RemoteControl: 8
   
 BO_ 16 ServoCalibState: 5
   SG_ fl_calib : 0|9@1+ (1,0) [0|511] "°"
-  SG_ fr_calib : 9|18@1+ (1,0) [0|511] "°"
-  SG_ rl_calib : 18|27@1+ (1,0) [0|511] "°"
-  SG_ rr_calib : 27|36@1+ (1,0) [0|511] "°"
+  SG_ fr_calib : 9|9@1+ (1,0) [0|511] "°"
+  SG_ rl_calib : 18|9@1+ (1,0) [0|511] "°"
+  SG_ rr_calib : 27|9@1+ (1,0) [0|511] "°"
 
 BO_ 30 RaspiState: 20
   SG_ rpi_3v7_wl_sw_a : 0|10@1+ (0.009765625,0) [0|10] "A"
